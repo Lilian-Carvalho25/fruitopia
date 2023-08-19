@@ -14,6 +14,10 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 li {
     list-style: none;
 }
@@ -74,14 +78,82 @@ span {
 
 h1 {
     font-size: 2rem;
-    margin: 12px;
+    margin-left: 8px;
+    margin-top: 15px;
+}
+
+h3, p {
+    margin-left: 8px;
+}
+
+#container-buttons {
+    margin: 10px 0px 10px 10px;
+}
+
+.learn-more {
+    background-color: #F81452;
+    width: 140px;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.watch-video {
+    background: transparent;
+    width: 140px;
+    color: #F81452;
+    border: none;
+    border: solid 1px #F81452;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#container-social-icons {
+    margin: 10px 0px 10px 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#container-social-icons img {
+    width: 24px;
+}
+
+.container-emphasis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .emphasis {
-    width: 300px;
+    width: 320px;
 }
 
+@media screen and (min-width: 430px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h3, p {
+        margin-left: 12px;
+    }
+    
+    #container-buttons {
+        margin: 10px 0px 10px 12px;
+        display: flex;
+        gap: 8px;
+    }
 
+    #container-social-icons {
+        margin: 14px 0px 14px 15px;
+        gap: 12px;
+    }
+
+    .emphasis {
+        width: 360px;
+    }
+}
 
 @media screen and (min-width: 900px) {
     nav h2 {
@@ -100,6 +172,79 @@ h1 {
 
     nav {
         width: 70%;
+    }
+
+    .tol-general {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        height: 80vh;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+        margin-bottom: 5px;
+    }
+
+    p {
+        max-width: 440px;
+    }
+
+    #container-buttons {
+        margin: 17px 0px 17px 12px;
+        gap: 12px;
+    }
+
+    #container-social-icons {
+        margin: 14px 0px 14px 15px;
+        gap: 15px;
+    }
+
+    .emphasis {
+        width: 360px;
+    }
+
+}
+
+@media screen and (min-width: 1300px) {
+    .tol-general {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        height: 80vh;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+        margin-bottom: 5px;
+    }
+
+    p {
+        max-width: 520px;
+    }
+
+    #container-buttons {
+        margin: 17px 0px 17px 12px;
+        gap: 12px;
+    }
+
+    #container-social-icons {
+        margin: 14px 0px 14px 15px;
+        gap: 15px;
+    }
+
+    .emphasis {
+        width: 460px;
     }
 
 }
