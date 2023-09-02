@@ -4,6 +4,8 @@ Fuitopia é uma landing page, e o objetivo dela é chamar o público, para compr
 ## ⚙ Funcionalidades 
 - Página linda, responsiva e bem construída <br>
 
+<img src="https://i.imgur.com/LyEtpkj.png" width="600px" />
+
 ## 🖥️ Tecnologias utilizadas:<br>
 ###
 
